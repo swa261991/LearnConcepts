@@ -2,55 +2,55 @@ package com.cpc.dp.builder;
 
 public class Address {
 
-    private String houseNumber;
+	private String houseNumber;
+	
+	private String street;
+	
+	private String city;
+	
+	private String zipcode;
+	
+	private String state;
+	
+	public String getHouseNumber() {
+		return houseNumber;
+	}
 
-    private String street;
+	public void setHouseNumber(String houseNumber) {
+		this.houseNumber = houseNumber;
+	}
 
-    private String city;
+	public String getStreet() {
+		return street;
+	}
 
-    private String zipcode;
+	public void setStreet(String street) {
+		this.street = street;
+	}
 
-    private String state;
+	public String getCity() {
+		return city;
+	}
 
-    public String getHouseNumber() {
-        return houseNumber;
-    }
+	public void setCity(String city) {
+		this.city = city;
+	}
 
-    public void setHouseNumber(String houseNumber) {
-        this.houseNumber = houseNumber;
-    }
+	public String getZipcode() {
+		return zipcode;
+	}
 
-    public String getStreet() {
-        return street;
-    }
+	public void setZipcode(String zipcode) {
+		this.zipcode = zipcode;
+	}
 
-    public void setStreet(String street) {
-        this.street = street;
-    }
+	public String getState() {
+		return state;
+	}
 
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getZipcode() {
-        return zipcode;
-    }
-
-    public void setZipcode(String zipcode) {
-        this.zipcode = zipcode;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public void setState(String state) {
-        this.state = state;
-    }
-
-
+	public void setState(String state) {
+		this.state = state;
+	}
+	
+	
 }
